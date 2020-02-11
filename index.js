@@ -5,8 +5,8 @@ const runner = new Runner();
 
 // await runner.collectFiles();
 const run = async () => {
-  const results = await runner.collectFiles(process.cwd());
-  console.log(results);
+  await runner.collectFiles(process.cwd());
+  console.log(runner.testFiles);
 };
 
 console.log('Running test...');
