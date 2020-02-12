@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/shownola/testme/issues"
   },
-  "homepage": "https://github.com/shownola/testme#readme"
+  "homepage": "https://github.com/shownola/testme#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
